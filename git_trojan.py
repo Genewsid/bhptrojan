@@ -12,7 +12,7 @@ from datetime import datetime
 def github_connect():
     with open('token') as f:
 #        token = f.read()
-        token = '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'
+        token = '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'
     user = 'Genewsid'
     sess = github3.login(token=token)
     return sess.repository(user, 'bhptrojan')
